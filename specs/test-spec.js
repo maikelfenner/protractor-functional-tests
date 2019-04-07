@@ -5,5 +5,5 @@ describe('demo test', function() {
         browser.get('https://www.saucedemo.com/');
 
         expect(browser.getTitle()).toEqual('Swag Labs');
-	});
+    });
 });
