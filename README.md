@@ -1,7 +1,6 @@
 [![Build Status](https://travis-ci.org/maikelfenner/protractor-functional-tests.svg?branch=master)](https://travis-ci.org/maikelfenner/protractor-functional-tests)
 
-##Testes funcionais com protractor.
-
+Testes funcionais com protractor.
 Site testado: https://www.saucedemo.com/
 
 **#01 - Login com usuário ou senha inválido**  
