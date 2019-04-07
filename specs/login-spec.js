@@ -19,6 +19,7 @@ describe('LoginPage scenarios', function() {
 
     it('#02 - Login com usuário e senha válidos', function() {
       var productsListPage = page.validLogin();
+      
       expect(productsListPage.isShoppingCartPresent()).toBe(true);
       expect(productsListPage.getPageTitle()).toEqual('Products');
     });

@@ -7,20 +7,20 @@ var LoginPage = function(){
       passwordInput = $('#password'),
       errorField = $('h3');
 
-  this.get = function(){
+  this.get = function() {
     browser.waitForAngularEnabled(false);
     browser.get('https://www.saucedemo.com/');
   }
 
-  this.getUsernameInput = function(){
+  this.getUsernameInput = function() {
     return usernameInput;
   }
 
-  this.getPasswordInput = function(){
+  this.getPasswordInput = function() {
     return passwordInput;
   }
 
-  this.getErrorField = function(){
+  this.getErrorField = function() {
     return errorField;
   }
 
